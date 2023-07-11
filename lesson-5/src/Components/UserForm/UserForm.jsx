@@ -1,32 +1,30 @@
 import Button from "../../UI/Button";
 import Input from "../../UI/Input";
-import {useState} from "react";
+import {useRef} from "react";
 
-const initialInput = {
-    'current-savings': 0,
-    'yearly-contribution': 0,
-    'expected-return': 0,
-    'duration': 0,
-}
 const UserForm = (props) => {
-    const [input, setInput] = useState(initialInput);
+    const currentSaving = useRef();
+    const yearly = useRef();
+    const expectedReturn = useRef();
+    const duration = useRef();
 
-    const inputChangeHandler = (inputName, value) => {
-        console.log(inputName, value);
-        setInput({
-            ...input,
-            [inputName]: value
-        });
 
-    }
     const resetHandler = () => {
-        setInput(initialInput);
+        currentSaving.current.value = null;
+        yearly.current.value = null;
+        expectedReturn.current.value = null;
+        duration.current.value = null;
     }
 
     const formSubmitHandler = (event) => {
         event.preventDefault();
 
-        console.log(input);
+        console.log({
+            'current-savings':  currentSaving.current.value,
+            'yearly-contribution':  yearly.current.value,
+            'expected-return':  expectedReturn.current.value,
+            'duration': duration.current.value,
+        });
     }
 
 
@@ -35,21 +33,21 @@ const UserForm = (props) => {
             <div className="input-group">
                 <Input id="current-savings"
                        inputName="Current Savings ($)"
-                       onChange={inputChangeHandler}
+                       references={currentSaving}
                 />
                 <Input id="yearly-contribution"
                        inputName="Yearly Savings ($)"
-                       onChange={inputChangeHandler}
+                       references={yearly}
                 />
             </div>
             <div className="input-group">
                 <Input id="expected-return"
                        inputName="Expected Interest (%, per year)"
-                       onChange={inputChangeHandler}
+                       references={expectedReturn}
                 />
                 <Input id="duration"
                        inputName="Investment Duration (years)"
-                       onChange={inputChangeHandler}
+                       references={duration}
                 />
             </div>
             <p className="actions">

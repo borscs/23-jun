@@ -4,7 +4,7 @@ const Input = (props) => {
             <label htmlFor={props.id}>{props.inputName}</label>
             <input type="number"
                    id={props.id}
-                   onChange={(event) => props.onChange( props.id ,event.target.value)}
+                   ref={props.references}
             />
         </p>
     )

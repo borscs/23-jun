@@ -6,7 +6,7 @@ import CartItem from "./CartItem";
 
 const Cart = (props) => {
     const cartCtx = useContext(CartContext);
-
+    const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
     const onRemoveHandler = (id) => {
         cartCtx.removeItem(id);
     };
@@ -35,7 +35,7 @@ const Cart = (props) => {
             {cartItems}
             <div className={classes.total}>
                 <span>Total Amount</span>
-                <span>{cartCtx.totalAmount}</span>
+                <span>{totalAmount}</span>
             </div>
             <div className={classes.actions}>
                 <button className={classes['button--alt']} onClick={props.onClose}>Close</button>

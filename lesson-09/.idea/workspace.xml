@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0578aab-b5d9-4c23-a024-3171e3110804" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/meals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cart/Cart.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cart/CartItem.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/HeaderCartButton.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/HeaderCartButton.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/AvailableMeals.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/AvailableMeals.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/MealItem/MealItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/MealItem/MealItem.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/MealItem/MealItemForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/MealItem/MealItemForm.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/Meals.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/MealsSummary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Meals/MealsSummary.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Card.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Card.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/CartIcon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Input.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Modal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/UI/Modal.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/CartProvider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/cart-context.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Store/CartProvider.jsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2SqGplQdIdaOJwdfaDOSMLNkGA8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/borscs/Dokumentumok/MUnka/Oktatás/23-jun/lesson-09",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/borscs/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/231.9225.18/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Cart" />
+      <recent name="$PROJECT_DIR$/src/Components/UI" />
+      <recent name="$PROJECT_DIR$/src/Components/Meals/MealItem" />
+      <recent name="$PROJECT_DIR$/src/Components/Meals" />
+      <recent name="$PROJECT_DIR$/src/Components/Layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0578aab-b5d9-4c23-a024-3171e3110804" name="Changes" comment="" />
+      <created>1689866883225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689866883225</updated>
+      <workItem from="1689866884400" duration="6532000" />
+      <workItem from="1690298728379" duration="7712000" />
+      <workItem from="1690471273078" duration="420000" />
+    </task>
+    <task id="LOCAL-00001" summary="lesson-09">
+      <option name="closed" value="true" />
+      <created>1689873616704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689873616704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson-10">
+      <option name="closed" value="true" />
+      <created>1690306304048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690306304048</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson-09" />
+    <MESSAGE value="lesson-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson-10" />
+  </component>
+</project>
